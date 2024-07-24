@@ -24,14 +24,23 @@ repositories {
 }
 
 dependencies {
+<<<<<<< HEAD
 //	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 //	implementation 'org.springframework.boot:spring-boot-starter-security'
+=======
+	//implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	//implementation 'org.springframework.boot:spring-boot-starter-security'
+>>>>>>> e6422a6c91a98dc2f33f10307bfd0326be9da90b
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.mysql:mysql-connector-j'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+<<<<<<< HEAD
 //	testImplementation 'org.springframework.security:spring-security-test'
+=======
+	//testImplementation 'org.springframework.security:spring-security-test'
+>>>>>>> e6422a6c91a98dc2f33f10307bfd0326be9da90b
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
